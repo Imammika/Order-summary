@@ -1,0 +1,98 @@
+body {
+    margin: 50px auto;
+    background-color: hsl(225, 100%, 94%);
+    text-align: center;
+    font-family: 'Red Hat Display', sans-serif;;
+}
+
+main {
+    width: 300px;
+    background-color: white;
+    margin: auto;
+    padding: 0 0 20px;
+    border-radius: 15px;
+}
+
+.first-image {
+    width: 300px;
+    border-radius: 12px 12px 0 0;
+}
+
+price-section {
+    width: 350px;
+    border-radius: 12px;
+    padding: 50px;
+}
+
+h3 {
+    font-size: 20px;
+    padding: 0;
+}
+
+.description {
+    padding: 0 25px;
+    opacity: 0.5;
+    line-height: 1.5;
+    font-size: 0.9rem;
+}
+
+.price-section {
+    background-color: hsl(225, 100%, 98%);
+    display: flex;
+    opacity: 0.7;
+    width: 280px;
+    margin: 0 auto;
+    border-radius: 15px;
+    align-items: center;
+    align-content: space-between;
+    justify-content: space-between;
+    padding: 2px 5px;
+    line-height: 0;
+}
+
+.music-icon {
+    padding: 0 0 0 15px;
+}
+
+.selection {
+    font-size: 0.8rem;
+    padding: 0 30px 0 0;
+}
+
+.payment {
+    margin: 0 60px 0 20px;
+
+}
+
+.payment h5 {
+    font-weight: bolder;
+}
+
+.payment p {
+    opacity: 0.5;
+    font-size: 0.95rem;
+}
+
+.btn {
+    width: 280px;
+    height: 45px;
+    border-radius: 15px;
+    border: 0;
+    margin: 2px 0;
+}
+
+.btn a {
+    text-decoration: none;
+}
+
+.proceed {
+    background-color: hsl(245, 75%, 52%);
+}
+
+.proceed:hover {
+    background-color: hsl(245, 99%, 70%);
+}
+
+.proceed a {
+    color: hsl(225, 100%, 94%);
+}
